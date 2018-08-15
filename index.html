@@ -4,7 +4,9 @@
 
 <head>
 	<title>Josh Dela Cruz</title>
-    
+    <meta name="referrer" content="origin">
+
+
 	<link href="./styles.css" type="text/css" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"/>
@@ -57,14 +59,14 @@
 
         <form id="contact-form" method="POST" action="https://formspree.io/jdelacr123@gmail.com">
             <div class="form-group">
-                <label id="email-form" for="email">Email</label>
+                <label id="email-form" for="">Email</label>
                 <br>
-                <input class="style" type="email" name="email" placeholder="Your email">
+                <input class="style" type="email" name="_replyto" placeholder="Your email">
                 <br>
                 <textarea class="style" name="message" placeholder="Your message"></textarea>
                 <br>
             </div>
-            <button type="button" class="btn btn-light">Send</button>
+            <button type="submit" class="btn btn-light" >Send</button>
         </form>        
     </div>
 </body>
