@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+New
+*/
+#nav {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+#home, #about-me, #contact, #experience {
+    padding-top: 90px;
+    height: 100%;
+}
+
+#home {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#home:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.80;
+    background-image: url('oakland.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.tagline {
+    padding-top: 10px;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.intro {
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+#about-me {
+    background: #659dbd;
+    clear: both;
+
+}
+
+#about-josh {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px 20px 20px;
+
+    border-radius: 50%;
+}
+
+.bio {
+    float: right;
+    clear: right;
+}
+
+.picture {
+    overflow: hidden;
+    border: 3px double midnightblue;
+}
+
+
+#experience {
+    background: #daad86;
+}
+
+#contact {
+    background: #bc986a;
+}
+
+#email-form {
+	font-family: "Titillium Web", sans-serif, Tahoma;
+	color: #f9f9f9;;
+    font-weight: bold;
+}
+
+label, input, textarea, button {
+    display: block;
+    padding: 20px;
+    align-items: center;
+}
+
+input {
+    height: 20px;
+    width: 25%;
+}
+
+textarea {
+    height: 75%;
+    width: 25%;
+}
+
+#contact-form {
+    padding-left: 100px;
+}
+
+/*
+Old
+*/
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+	font-family: "Titillium Web", sans-serif, Tahoma;
+	color: #0080ab;
+    font-weight: bold;
+}
+
+.style {
+	font-family: "Titillium Web", sans-serif, Tahoma;
+	color: #0080ab;
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#name {
+    font-family: "Titillium Web", sans-serif, Tahoma;
+	color: #fff;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+p {
+	font-family: "Open Sans", sans-serif, Tahoma;
+	color: #505050;
+    font-size: 22px;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.about-me {
+    align-self: auto;
+}
+
+#foot-tag {
+    font-family: "Open Sans", sans-serif, Tahoma;
+    margin: 10px;
+    font-size: 10px;
+    text-align: right;
+}
+
+/*.side-nav-bar */
+
+.navbar-fixed-left {
+    background-color: #121212;
+    height: 100%;
+    width: 200px;
+    padding-top: 20px;
+    overflow-x: hidden;
+    position: fixed;
+    align-self: left;
+}
+
+a {
+    font-size: 22px;
+}
+
+.nav-items{
+    font-size: 22px;
+    padding: 6px 8px 6px 16px;
+}
+
+header {
+    top: 60px;
+    align-self: center;
+}
