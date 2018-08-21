@@ -172,8 +172,9 @@ textarea {
     margin-left: 50px;
 }
 
+/*
 Media Queries 
-
+*/
 
 @media only screen and (max-width: 320px) {
     
@@ -182,8 +183,8 @@ Media Queries
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     }
     
     html, body {
