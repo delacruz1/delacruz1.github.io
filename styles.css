@@ -2,15 +2,45 @@
     box-sizing: border-box;
 }
 
-
 /*
 New
 */
+#me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Titillium Web", sans-serif, Tahoma;
+	color: #0080ab;
+    font-weight: bold;
+}
+
+p {
+	font-family: "Open Sans", sans-serif, Tahoma;
+	color: #505050;
+    font-size: 22px;
+}
+
+
+a {
+    font-size: 22px;
+}
+
 #nav {
     position: fixed;
     width: 100%;
     z-index: 100;
     
+}
+
+.nav-items{
+    font-size: 22px;
+    padding: 6px 8px 6px 16px;
 }
 
 html, body {
@@ -41,10 +71,6 @@ html, body {
     background-image: url('oakland.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
     background-size: cover;
 }
 
@@ -102,7 +128,7 @@ html, body {
     font-weight: bold;
 }
 
-label, input, textarea, button {
+input, textarea, button {
     display: block;
     padding: 20px;
     align-items: center;
@@ -110,34 +136,20 @@ label, input, textarea, button {
 
 input {
     height: 20px;
-    width: 25%;
+    width: 80%;
 }
 
 textarea {
-    height: 75%;
-    width: 25%;
-}
-
-#contact-form {
-    padding-left: 100px;
+    height: 300px;
+    width: 80%;
 }
 
 /*
-Old
-*/
-
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#contact-form {
+    padding-left: 100px;
 }
+*/ 
 
-h1, h2 {
-	font-family: "Titillium Web", sans-serif, Tahoma;
-	color: #0080ab;
-    font-weight: bold;
-}
 
 .style {
 	font-family: "Titillium Web", sans-serif, Tahoma;
@@ -149,15 +161,6 @@ h1, h2 {
     text-decoration: underline;
 }
 
-#me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-}
-
 #name {
     font-family: "Titillium Web", sans-serif, Tahoma;
 	color: #fff;
@@ -165,49 +168,59 @@ h1, h2 {
     margin-left: 50px;
 }
 
-p {
-	font-family: "Open Sans", sans-serif, Tahoma;
-	color: #505050;
-    font-size: 22px;
+Media Queries 
+
+
+@media (min-width: 600px) {
+    
+    #me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    }
+    
+    html, body {
+        height: 50%;
+    }
+    
+    #nav {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    
+    }
+
+    
+    .nav-items {
+        font-size: 10px;
+        padding: 3px 4px 3px 8px;
+    }
+
+
+    #home, #about-me, #contact, #experience {
+        padding-top: 30px;
+        height: 50%;
+    }
+    
+    #home:before{
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 50%;
+        z-index: -1;
+        opacity: 0.80;
+        background-image: url('oakland.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+
 }
 
-.tcenter {
-    text-align: center;
-}
 
-.about-me {
-    align-self: auto;
-}
-
-#foot-tag {
-    font-family: "Open Sans", sans-serif, Tahoma;
-    margin: 10px;
-    font-size: 10px;
-    text-align: right;
-}
-
-/*.side-nav-bar */
-
-.navbar-fixed-left {
-    background-color: #121212;
-    height: 100%;
-    width: 200px;
-    padding-top: 20px;
-    overflow-x: hidden;
-    position: fixed;
-    align-self: left;
-}
-
-a {
-    font-size: 22px;
-}
-
-.nav-items{
-    font-size: 22px;
-    padding: 6px 8px 6px 16px;
-}
-
-header {
-    top: 60px;
-    align-self: center;
-}
