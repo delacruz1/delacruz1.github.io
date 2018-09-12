@@ -7,14 +7,14 @@ html {
     background: url("oakland.jpg");
 }
 
-.container {
+.intro .container {
     border-radius: 25px;
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 63vh;
-    width: 1vw;
+    height: 65vh;
+    width: 85vw;
     background: rgba(255,255,255, 0.85);
 }
 
