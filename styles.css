@@ -33,3 +33,7 @@ p {
 h1, h3{
     font-family: "Montserrat", sans-serif;
 }
+
+ion-icon {
+    font-size: 48px;
+}
