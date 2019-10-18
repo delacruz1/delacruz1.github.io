@@ -19,12 +19,17 @@ body {
     background: black !important;
 }
 
-h1, h2, h3, h4, h5, h6, .nav-item {
+h1, h2, h3, h4, h5, h6, .nav-item, a {
     font-family: 'Open Sans', sans-serif;
 }
 
 .nav-item:hover {
     background-color: #834C69;
+}
+
+.fa {
+    color: white !important;
+    text-decoration: none !important;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
