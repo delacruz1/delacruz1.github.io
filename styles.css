@@ -38,3 +38,6 @@ p, .content-text {
     font-family: 'Roboto', sans-serif;
 }
 
+.underline {
+    text-decoration: underline;
+}
