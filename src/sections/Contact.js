@@ -21,7 +21,7 @@ const Contact = () => {
             sx={{ textDecoration: "underline" }}
             gutterBottom
           >
-            Email
+            Email 
           </Typography>
           <Typography variant="h5" color="primary.contrastText" gutterBottom>
             jdelacr123@gmail.com
