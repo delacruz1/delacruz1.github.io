@@ -1,0 +1,20 @@
+.home,
+.about .experience,
+.contact,
+.projects {
+  min-height: 100vh;
+}
+
+.about Typography {
+  text-align: left;
+}
+.about {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about img {
+  border-radius: 25px;
+}
