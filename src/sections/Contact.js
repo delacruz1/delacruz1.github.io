@@ -3,6 +3,8 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 const Contact = () => {
+  document.title = "Contact | Josh Dela Cruz";
+
   return (
     <div className="contact">
       <Card

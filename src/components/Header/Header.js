@@ -62,8 +62,16 @@ const Header = (props) => {
                 component="div"
                 sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
               >
-                Josh Dela Cruz
+                <Link
+                  color="primary.contrastText"
+                  underline="none"
+                  component={RouterLink}
+                  to="/"
+                >
+                  Josh Dela Cruz
+                </Link>
               </Typography>
+
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                 <IconButton
                   size="large"
@@ -124,7 +132,14 @@ const Header = (props) => {
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
               >
-                Josh Dela Cruz
+                <Link
+                  color="primary.contrastText"
+                  underline="none"
+                  component={RouterLink}
+                  to="/"
+                >
+                  Josh Dela Cruz
+                </Link>
               </Typography>
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 <Button
